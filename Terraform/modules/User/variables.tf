@@ -15,5 +15,5 @@ variable "password" {
 
 variable "account_enabled" {
   description = "This determines if the account is enabled"
-  type        = string
+  type        = Boolean
 }

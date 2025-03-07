@@ -19,6 +19,6 @@ output "subnet" {
 }
 
 output "subnet_address" {
-  description = "Name of the Subnet"
+  description = "Address space of the Subnet"
   value       = azurerm_virtual_machine.vm.subnet_address_space
 }

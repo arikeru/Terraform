@@ -13,9 +13,47 @@ variable "network_security_group_name" {
   type        = string
 }
 
-variable "subscription" {
-  description = "Name of the subscription"
+variable "rule_name" {
+  description = "Name of the rule"
   type        = string
 }
 
-#Figure out how to make the security rules
+variable "priotity" {
+  description = "Priority of the rule"
+  type        = string
+}
+
+variable "direction" {
+  description = "Inbound or Outbound"
+  type        = string
+}
+
+variable "access" {
+  description = "Allow or Deny"
+  type        = string
+}
+
+variable "protocol" {
+  description = "Name of the protocol"
+  type        = string
+}
+
+variable "source_port_range" {
+  description = "Range of ports"
+  type        = string
+}
+
+variable "destination_port_range" {
+  description = "Range of portss"
+  type        = string
+}
+
+variable "source_address_prefix" {
+  description = "Address of protocol"
+  type        = string
+}
+
+variable "destination_address_prefix" {
+  description = "address of endpoint"
+  type        = string
+}

@@ -32,3 +32,8 @@ variable "subscription" {
   description = "Name of the subscription"
   type        = string
 }
+
+variable "network_security_group_name" {
+  description = "Name of the "NSG
+  type        = string
+}

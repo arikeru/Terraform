@@ -1,4 +1,4 @@
-resource "azurerm_virtual_machine" "vm" {
+resource "azurerm_virtual_network" "vnet" {
     subscription            = var.subscription
     name                    = var.vnet_name
     location                = var.location
